@@ -1,6 +1,6 @@
 ---
 layout: post
-title: manage_blog_in_new_location
+title: 在新位置管理blog
 date: 2020-12-17 21:31:51
 tags: [blog]
 ---
@@ -26,6 +26,7 @@ cd "username.github.io"
 npm install
 
 ```
+<!-- more -->
 
 ## 3. 编辑和创作blog
 
