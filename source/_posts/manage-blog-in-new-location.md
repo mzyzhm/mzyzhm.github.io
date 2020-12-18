@@ -12,7 +12,7 @@ tags: [blog]
 
 ## 1. 准备基础环境
 
-本地安装了npm, hexo等。
+本地安装了node(v14.15.3), npm(6.14.9), hexo等, 版本最新最好。
 
 ## 2. 安装hexo blog本地依赖
 
