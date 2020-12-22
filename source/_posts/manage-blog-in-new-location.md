@@ -28,17 +28,31 @@ npm install
 ```
 <!-- more -->
 
-## 3. 编辑和创作blog
+## 3. 编辑和创作正式blog
 
 ```sh
 
 # 创建markdown文件 `new_blog.md`, 在source/_posts目录下
 hexo new "new_blog"
 
+
 ## 编辑blog等工作
 ```
 
-## 4. 保存工作到hexo分支
+## 4. 编辑草稿和发布操作
+
+当还没有编辑好正式文档时，可以使用草稿文档。
+
+```sh
+
+hexo new draft "draf"
+
+# 从_draft目录移动到_post目录
+hexo publish "draft"
+
+```
+
+## 5. 保存工作到hexo分支
 ```sh
 git add .
 git commit -m "info"
@@ -46,7 +60,7 @@ git push origin hexo
 ```
 
 
-## 5. 本地预览及发布blog
+## 6. 本地预览及发布blog
 
 ```sh
 # 将markdown文件生成html静态文件
